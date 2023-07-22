@@ -1,1 +1,36 @@
-[]
+[
+{
+  "kernelSource": {
+    "name": "kernel-RMX3031-release",
+    "repo": "https://github.com/chilan666/kernel_realme_RMX3031/blob",
+    "branch": "T",
+    "device": "cupida",
+    "defconfig": "cupida_defconfig"
+  },
+  "withKernelSU": false,
+  "toolchains": [
+  {
+    "repo": "https://github.com/kdrag0n/proton-clang",
+    "branch": "master",
+    "name": "proton-clang",
+    "binPath": ["./bin"]
+  }
+],
+  "ccache": true,
+  "params": {
+  "ARCH": "arm64",
+  "CC": "clang",
+  "externalCommand": {
+    "CLANG_TRIPLE": "aarch64-linux-gnu-",
+    "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+    "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-"
+  }
+},
+  "AnyKernel3": {
+    "use": false,
+    "release": true,
+    "repo": "https://github.com/easterNday/AnyKernel3/",
+    "branch": "thyme"
+  }
+}
+]
