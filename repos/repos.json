@@ -16,7 +16,7 @@
     "binPath": ["./bin"]
   }
 ],
-  "ccache": false,
+  "ccache": true,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -37,7 +37,7 @@
       }
     },
   "AnyKernel3": {
-    "use": false,
+    "use": true,
     "release": true,
     "repo": "https://github.com/easterNday/AnyKernel3/",
     "branch": "thyme"
@@ -60,7 +60,7 @@
     "binPath": ["./bin"]
   }
 ],
-  "ccache": false,
+  "ccache": true,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -81,7 +81,7 @@
       }
     },
   "AnyKernel3": {
-    "use": false,
+    "use": true,
     "release": true,
     "repo": "https://github.com/easterNday/AnyKernel3/",
     "branch": "thyme"
