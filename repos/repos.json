@@ -1,11 +1,11 @@
 [
 {
   "kernelSource": {
-    "name": "kernel-RMX3031-S-guanfang-release",
-    "repo": "https://github.com/realme-kernel-opensource/realme_X7max_GTneo_Q3pro_GTneo2T-AndroidS-kernel-source",
-    "branch": "master",
-    "device": "k6893v1_64_20615",
-    "defconfig": "k6893v1_64_20615_defconfig"
+    "name": "kernel-RMX3031-S-cuttlefish-release",
+    "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
+    "branch": "S",
+    "device": "cuttlefish",
+    "defconfig": "cuttlefish_defconfig"
   },
   "withKernelSU": false,
   "toolchains": [
@@ -16,7 +16,7 @@
     "binPath": ["./bin"]
   }
 ],
-  "ccache": true,
+  "ccache": false,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -37,7 +37,51 @@
       }
     },
   "AnyKernel3": {
-    "use": true,
+    "use": false,
+    "release": true,
+    "repo": "https://github.com/easterNday/AnyKernel3/",
+    "branch": "thyme"
+  }
+},
+{
+  "kernelSource": {
+    "name": "kernel-RMX3031-S-mt6893-release",
+    "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
+    "branch": "S",
+    "device": "mt6893",
+    "defconfig": "mt6893_defconfig"
+  },
+  "withKernelSU": false,
+  "toolchains": [
+  {
+    "repo": "https://github.com/kdrag0n/proton-clang",
+    "branch": "master",
+    "name": "proton-clang",
+    "binPath": ["./bin"]
+  }
+],
+  "ccache": false,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "proton-clang/bin/clang",
+      "externalCommand": {
+        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "LD": "proton-clang/bin/ld.lld",
+        "AR": "proton-clang/bin/llvm-ar",
+        "NM": "proton-clang/bin/llvm-nm",
+        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
+        "OBJDUMP": "proton-clang/bin/llvm-objdump",
+        "READELF": "proton-clang/bin/llvm-readelf",
+        "OBJSIZE": "proton-clang/bin/llvm-size",
+        "STRIP": "proton-clang/bin/llvm-strip",
+        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "proton-clang/bin/llvm-ar",
+        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+      }
+    },
+  "AnyKernel3": {
+    "use": false,
     "release": true,
     "repo": "https://github.com/easterNday/AnyKernel3/",
     "branch": "thyme"
