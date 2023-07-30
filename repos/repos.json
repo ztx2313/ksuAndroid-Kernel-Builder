@@ -1,55 +1,11 @@
 [
 {
   "kernelSource": {
-    "name": "kernel-q2-S-release",
-    "repo": "https://github.com/realme-kernel-opensource/realme_q2pro-AndroidS-kernel-source",
-    "branch": "master",
-    "device": "k6853v1_64",
-    "defconfig": "k6853v1_64_defconfig"
-  },
-  "withKernelSU": true,
-  "toolchains": [
-  {
-    "repo": "https://github.com/kdrag0n/proton-clang",
-    "branch": "master",
-    "name": "proton-clang",
-    "binPath": ["./bin"]
-  }
-],
-  "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "LD": "proton-clang/bin/ld.lld",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
-      }
-    },
-  "AnyKernel3": {
-    "use": true,
-    "release": true,
-    "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
-    "branch": "cupida"
-  }
-},
-{
-  "kernelSource": {
-    "name": "kernel-x7-S-release",
-    "repo": "https://github.com/realme-kernel-opensource/realme_X7_X7Pro_X7ProExtreme_X7-5G_Q2Pro_V15_V5_Q2_Narzo30pro-5G_7-5G-AndroidS-kernel-source",
-    "branch": "master",
-    "device": "k85v1_64",
-    "defconfig": "k85v1_64_defconfig"
+    "name": "kernel-q5p-T-release",
+    "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
+    "branch": "bigshot",
+    "device": "kona-perf",
+    "defconfig": "vendor/kona-perf_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
