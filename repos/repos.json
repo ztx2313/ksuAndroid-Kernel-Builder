@@ -46,7 +46,7 @@
 {
   "kernelSource": {
     "name": "kernel-oppo_sm8150-ksu-release",
-    "repo": "https://github.com/Art-Chen/android_kernel_oppo_sm8150/tree/aosp-12.0",
+    "repo": "https://github.com/Art-Chen/android_kernel_oppo_sm8150",
     "branch": "aosp-12.0",
     "device": "op4a89",
     "defconfig": "vendor/op4a89_defconfig"
