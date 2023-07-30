@@ -1,13 +1,13 @@
 [
 {
   "kernelSource": {
-    "name": "kernel-RMX3031-T-cupida-noksu-release",
+    "name": "kernel-RMX3031-S-cupplefish-ksu-release",
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
-    "branch": "T",
-    "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "branch": "S",
+    "device": "cuttlefish",
+    "defconfig": "cuttlefish_defconfig"
   },
-  "withKernelSU": false,
+  "withKernelSU": true,
   "toolchains": [
   {
     "repo": "https://github.com/kdrag0n/proton-clang",
@@ -45,11 +45,11 @@
 },
 {
   "kernelSource": {
-    "name": "kernel-RMX3031-T-mt6893-ksu-release",
+    "name": "kernel-RMX3031-S-mt6893-ksu-release",
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
-    "branch": "T",
-    "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "branch": "S",
+    "device": "mt6893",
+    "defconfig": "mt6893_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
