@@ -1,11 +1,11 @@
 [
 {
   "kernelSource": {
-    "name": "kernel-q5p-T-release",
-    "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
-    "branch": "bigshot",
-    "device": "kona-perf",
-    "defconfig": "vendor/kona-perf_defconfig"
+    "name": "kernel-RMX3031-T-release",
+    "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
+    "branch": "T",
+    "device": "cupida",
+    "defconfig": "cupida_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
