@@ -1,7 +1,7 @@
 [
 {
   "kernelSource": {
-    "name": "kernel-RMX3031-T-release",
+    "name": "KernelSU-RMX3031-T-release",
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
     "branch": "T",
     "device": "cupida",
