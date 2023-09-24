@@ -38,7 +38,7 @@
     },
   "AnyKernel3": {
     "use": true,
-    "release": true,
+    "release": false,
     "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
     "branch": "cupida"
   }
