@@ -47,7 +47,7 @@
   "kernelSource": {
     "name": "GTMaster-T-release",
     "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
-    "branch": "bigshot-AOSP",
+    "branch": "bigshot",
     "device": "sm8250",
     "defconfig": "vendor/sm8250_defconfig"
   },
