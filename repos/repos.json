@@ -2,7 +2,7 @@
 {
   "kernelSource": {
     "name": "Kernel-WithKernelSU-GTNeoSeries-T-release",
-    "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
+    "repo": "https://github.com/nishant6342/kernel_realme_RMX3031",
     "branch": "T",
     "device": "cupida",
     "defconfig": "cupida_defconfig"
@@ -47,7 +47,7 @@
   "kernelSource": {
     "name": "GTMaster-T-release",
     "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
-    "branch": "bigshot",
+    "branch": "bigshot-AOSP",
     "device": "sm8250",
     "defconfig": "vendor/sm8250_defconfig"
   },
