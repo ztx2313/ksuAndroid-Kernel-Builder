@@ -1,11 +1,11 @@
 [
 {
   "kernelSource": {
-    "name": "Kernel-WithKernelSU-GTNeoSeries-T-release",
-    "repo": "https://github.com/nishant6342/kernel_realme_RMX3031",
-    "branch": "T",
-    "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "name": "Kernel-WithKernelSU-GT-T-release",
+    "repo": "https://github.com/realme-kernel-opensource/realme_gt-AndroidT-kernel-source",
+    "branch": "master",
+    "device": "RMX2202",
+    "defconfig": "defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
@@ -39,52 +39,7 @@
   "AnyKernel3": {
     "use": true,
     "release": true,
-    "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
-    "branch": "cupida"
-  }
-},
-{
-  "kernelSource": {
-    "name": "GTMaster-T-release",
-    "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
-    "branch": "bigshot-AOSP",
-    "device": "sm8250",
-    "defconfig": "vendor/sm8250_defconfig"
-  },
-  "withKernelSU": true,
-  "toolchains": [
-  {
-    "repo": "https://github.com/kdrag0n/proton-clang",
-    "branch": "master",
-    "name": "proton-clang",
-    "binPath": ["./bin"]
-  }
-],
-  "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "LD": "proton-clang/bin/ld.lld",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
-      }
-    },
-  "AnyKernel3": {
-    "use": true,
-    "release": true,
-    "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
-    "branch": "cupida"
+    "repo": "https://github.com/osm0sis/AnyKernel3",
+    "branch": "master"
   }
 }
-]
