@@ -4,7 +4,7 @@
     "name": "Kernel-WithKernelSU-GT-T-release",
     "repo": "https://github.com/realme-kernel-opensource/realme_gt-AndroidT-kernel-source",
     "branch": "master",
-    "device": "RMX2202",
+    "device": "EMX2202",
     "defconfig": "defconfig"
   },
   "withKernelSU": true,
@@ -39,7 +39,7 @@
   "AnyKernel3": {
     "use": true,
     "release": true,
-    "repo": "https://github.com/osm0sis/AnyKernel3",
-    "branch": "master"
+    "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
+    "branch": "cupida"
   }
-}
+},
