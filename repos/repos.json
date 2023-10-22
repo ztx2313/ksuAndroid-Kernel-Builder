@@ -4,7 +4,7 @@
     "name": "Kernel-WithKernelSU-GT-T-release",
     "repo": "https://github.com/realme-kernel-opensource/realme_gt-AndroidT-kernel-source",
     "branch": "master",
-    "device": "EMX2202",
+    "device": "RMX2202",
     "defconfig": "defconfig"
   },
   "withKernelSU": true,
