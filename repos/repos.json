@@ -1,10 +1,10 @@
 [
 {
   "kernelSource": {
-    "name": "Kernel-WithKernelSU-GT-T-release",
+    "name": "WithKernelSU-GTNeoSeries-Kernel",
     "repo": "https://github.com/pjgowtham/kernel_realme_RMX2202",
     "branch": "master",
-    "device": "RMX2202",
+    "device": "cupida",
     "defconfig": "lahaina_defconfig"
   },
   "withKernelSU": true,
@@ -39,7 +39,8 @@
   "AnyKernel3": {
     "use": true,
     "release": true,
-    "repo": "https://github.com/chilan666/AnyKernel3_GTNeoseries",
+    "repo": "https://github.com/chilan666/AnyKernel3",
     "branch": "cupida"
   }
-},
+}
+]
