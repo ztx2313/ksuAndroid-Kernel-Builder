@@ -5,7 +5,7 @@
     "repo": "https://github.com/realme-kernel-opensource/realme_gt-AndroidT-kernel-source",
     "branch": "master",
     "device": "RMX2202",
-    "defconfig": "defconfig"
+    "defconfig": "rockpi4_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
